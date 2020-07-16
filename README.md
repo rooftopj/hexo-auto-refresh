@@ -1,18 +1,15 @@
 ## hexo-auto-fresh
-![](https://img.shields.io/badge/release-v1.0.0-blue)![](https://img.shields.io/badge/license-MIT-green)![](https://img.shields.io/badge/python-3.8-orange)![](https://img.shields.io/badge/Node-%3E%3D8.1.0-orange)![](https://img.shields.io/badge/ChromeDriver-%3Dversion--Browser-red)![](https://img.shields.io/badge/python-selenium-brightgreen)
-hexo博客自动部署工具。每次部署，都要输入重复的指令，本着懒惰是第一生产力的原则，制作了hexo-auto-fresh这个小工具，简化我们对于hexo的一些操作。除一些基本功能外，还可自动刷新七牛云cdn缓存。{% btn https://github.com/rooftopj/hexo-auto-refresh, rooftopj/github/hexo-auto-refresh %}
-
-###  所需环境
-
-`chrome驱动` `python-selenium` `git`
+![](https://img.shields.io/badge/python-3.8-orange)&nbsp;&nbsp;![](https://img.shields.io/badge/Node-%3E%3D8.1.0-orange)&nbsp;&nbsp;![](https://img.shields.io/badge/ChromeDriver-%3Dversion--Browser-red)&nbsp;&nbsp;![](https://img.shields.io/badge/python-selenium-brightgreen)<br>
+![](https://img.shields.io/badge/release-v1.0.0-blue)![](https://img.shields.io/badge/license-MIT-green)
+hexo博客自动部署工具。每次部署，都要输入重复的指令，本着懒惰是第一生产力的原则，制作了hexo-auto-fresh这个小工具，简化我们对于hexo的一些操作。除一些基本功能外，还可自动刷新七牛云cdn缓存。
 
 ### 使用方法
 
-将本项目文件夹放入你的博客根目录下。
+将本项目 `clone` 至你的博客根目录下。
 
 ### 使用步骤
 
-打开start.sh文件。
+打开hexo-auto-refresh.exe文件。
 
 ![hexo-auto-refresh界面图](https://i.loli.net/2020/07/15/OZYG5HFgpnExVqi.png)
 
