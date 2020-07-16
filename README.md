@@ -1,5 +1,5 @@
 ## hexo-auto-fresh
-![](https://img.shields.io/badge/release-v1.0.0-blue)
+![](https://img.shields.io/badge/release-v1.0.0-blue)![](https://img.shields.io/badge/license-MIT-green)![](https://img.shields.io/badge/python-3.8-orange)![](https://img.shields.io/badge/Node-%3E%3D8.1.0-orange)![](https://img.shields.io/badge/ChromeDriver-%3Dversion--Browser-red)![](https://img.shields.io/badge/python-selenium-brightgreen)
 hexo博客自动部署工具。每次部署，都要输入重复的指令，本着懒惰是第一生产力的原则，制作了hexo-auto-fresh这个小工具，简化我们对于hexo的一些操作。除一些基本功能外，还可自动刷新七牛云cdn缓存。{% btn https://github.com/rooftopj/hexo-auto-refresh, rooftopj/github/hexo-auto-refresh %}
 
 ###  所需环境
