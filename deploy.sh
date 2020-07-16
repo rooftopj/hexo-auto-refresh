@@ -1,0 +1,1 @@
+cd .. && rm -rf .deploy_git & hexo clean && hexo g && hexo d && start refresh.exe
