@@ -1,1 +1,0 @@
-cd .. && hexo clean && hexo s
