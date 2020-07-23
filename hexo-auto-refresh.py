@@ -158,7 +158,7 @@ tk.Label(window, text='---------------------------------------Without CDN-------
 btn_sign_up = tk.Button(window, text='Local deployment', command=local)
 btn_sign_up.place(x=5, y=360)
 
-btn_sign_up = tk.Button(window, text='Remote deployment(gulp)', command=local)
+btn_sign_up = tk.Button(window, text='Remote deployment(gulp)', command=deploy_gulp)
 btn_sign_up.place(x=140, y=360)
 
 btn_sign_up = tk.Button(window, text='Remote deployment', command=deploy)

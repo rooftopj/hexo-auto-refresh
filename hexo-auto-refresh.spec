@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['hexo-auto-refresh.py'],
-             pathex=['D:\\github\\hexo-auto-refresh发布'],
+             pathex=['D:\\github\\hexo-auto-refresh工具'],
              binaries=[],
              datas=[],
              hiddenimports=[],
