@@ -102,18 +102,26 @@ def CDNrefresh():
 def newPostFunction():
     newPost_command = 'cd .. && hexo n ' + newPost.get()
     os.system(newPost_command)
+    os.system('echo ===================finished===================')
+    os.system('echo ===================finished===================')
 
 def local():
     local = 'cd .. && hexo clean && hexo s'
     os.system(local)
+    os.system('echo ===================finished===================')
+    os.system('echo ===================finished===================')
 
 def deploy_gulp():
     deploy_gulp_cmd = 'cd .. && rd/s/q .deploy_git & hexo clean && hexo g && gulp && hexo d'
     os.system(deploy_gulp_cmd)
+    os.system('echo ===================finished===================')
+    os.system('echo ===================finished===================')
 
 def deploy():
     deploy_cmd = 'cd .. && rd/s/q .deploy_git & hexo clean && hexo g && hexo d'
     os.system(deploy_cmd)
+    os.system('echo ===================finished===================')
+    os.system('echo ===================finished===================')
 
 
 def refreshCDN():
@@ -125,6 +133,8 @@ def refreshCDN():
     with open('usrs_info.pickle', 'wb') as usr_file:
         pickle.dump(exist_usr_info, usr_file)
     CDNrefresh()
+    os.system('echo ===================finished===================')
+    os.system('echo ===================finished===================')
 
 def deploy_cdn_gulp():
     exist_usr_info={}
@@ -136,6 +146,8 @@ def deploy_cdn_gulp():
         pickle.dump(exist_usr_info, usr_file)
     deploy_gulp()
     CDNrefresh()
+    os.system('echo ===================finished===================')
+    os.system('echo ===================finished===================')
 
 
 def deploy_cdn():
@@ -148,6 +160,8 @@ def deploy_cdn():
         pickle.dump(exist_usr_info, usr_file)
     deploy()
     CDNrefresh()
+    os.system('echo ===================finished===================')
+    os.system('echo ===================finished===================')
 
 # button
 btn_sign_up = tk.Button(window, text='Create post', command=newPostFunction)
